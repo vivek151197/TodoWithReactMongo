@@ -1,0 +1,243 @@
+body {
+  background-color: lightsteelblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:-moz-focusring {
+  outline: none;
+}
+
+.inputvalue {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  height: fit-content;
+  flex-wrap: wrap;
+  width: 655px;
+  margin-bottom: 15%;
+}
+
+.inputvalue:hover {
+  outline: orange 1px solid;
+}
+
+.inputVal {
+  width: 95%;
+  height: fit-content;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 1rem;
+  float: right;
+}
+
+.container {
+  width: 675px;
+  height: fit-content;
+  position: absolute;
+  top: 2%;
+  left: 25%;
+  right: 25%;
+  border-radius: 3px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 3px;
+  height: fit-content;
+  flex-wrap: wrap;
+  width: inherit;
+  margin-bottom: 0.5rem;
+  border-left: solid white 5px;
+}
+
+.task:hover {
+  outline: orange solid 1.5px;
+}
+
+.deleteTask {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  width: 5rem;
+  border-radius: 3px;
+  background: rgb(210, 0, 50);
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  float: right;
+  margin-top: 4%;
+}
+
+.title {
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.1rem;
+  text-transform: capitalize;
+  width: 70%;
+  outline: none;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: grey;
+  width: 8rem;
+  text-align: right;
+}
+
+.Details {
+  background: white;
+  margin-left: 9px;
+  border: none;
+  border-radius: 10%;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  padding: 6px;
+  border: solid 0.5px white;
+}
+
+.Details:hover {
+  border: solid 0.5px rgb(210, 210, 210);
+  outline: orange solid 1px;
+}
+
+.innerContent {
+  border-top: solid 0.1rem whitesmoke;
+  width: 650px;
+  margin-top: 0.5rem;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.notesdiv {
+  width: 60%;
+  float: left;
+  padding-top: 5px;
+}
+
+.date-priority {
+  width: 38%;
+  height: 215px;
+  float: right;
+  padding-top: 5px;
+}
+
+.notes {
+  width: 380px;
+  height: 185px;
+  margin-top: 0.25rem;
+  border: rgb(211, 208, 208) solid 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.duedate {
+  width: 99%;
+  border: solid 0.1rem;
+  height: 15%;
+  border: rgb(211, 208, 208) solid 1px;
+  border-radius: 3px;
+  margin-top: 0.25rem;
+  color: #555454;
+}
+
+.duedate:focus {
+  outline: orange 1px solid;
+}
+
+.priority {
+  width: 100%;
+  height: 17%;
+  background-color: white;
+  border: rgb(211, 208, 208) solid 1px;
+  border-radius: 3px;
+  margin-top: 0.25rem;
+  color: #555454;
+}
+
+.priority:hover {
+  outline: orange 1px solid;
+}
+
+.DoneTasksdiv {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.doneTasks {
+  color: #555454;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  width: 675px;
+  height: fit-content;
+  font-size: 0.9rem;
+  padding: 12px;
+  text-align: start;
+  position: relative;
+  left: 25%;
+  cursor: pointer;
+  border: solid 0.5px rgb(210, 210, 210);
+}
+
+.doneTasks:hover {
+  outline: orange 1px solid;
+}
+
+.clearDoneTasks {
+  color: #555454;
+  background-color: white;
+  border: solid 0.5px rgb(210, 210, 210);
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.9rem;
+  padding: 12px;
+  text-align: start;
+  position: relative;
+  left: 25%;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.clearDoneTasks:hover {
+  outline: orange 1px solid;
+}
+
+.clearAllTasks {
+  float: inline-end;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  color: #555454;
+  background-color: white;
+  border: solid 0.5px rgb(210, 210, 210);
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.9rem;
+  padding: 12px;
+  text-align: start;
+  cursor: pointer;
+}
+
+.clearAllTasks:hover {
+  outline: orange solid 1.5px;
+}
+
+.done {
+  text-decoration: line-through;
+}
